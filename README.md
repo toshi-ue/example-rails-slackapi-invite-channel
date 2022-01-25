@@ -14,11 +14,12 @@ Things you may want to cover:
 
 リポジトリを clone
 ```
-git clone
+git clone https://github.com/toshi-ue/example-rails-slackapi-invite-channel.git
 ```
 
 リポジトリに移動
 ```
+cd example-rails-slackapi-invite-channel
 ```
 
 gemをインストール
@@ -30,6 +31,13 @@ webpackerをインストール
 ```
 rails webpacker:install
 ```
+
+データベースを作成
+```
+rails db:create
+rails db:migrate
+```
+
 
 アプリケーションを起動
 ```
