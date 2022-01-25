@@ -9,7 +9,8 @@ gem 'puma', '~> 4.1'
 gem 'sass-rails', '>= 6'
 gem 'webpacker', '~> 4.0'
 gem 'jbuilder', '~> 2.7'
-
+gem 'slack-ruby-client', '0.16.0'
+gem 'dotenv-rails'
 # gem 'redis', '~> 4.0'
 # gem 'bcrypt', '~> 3.1.7'
 

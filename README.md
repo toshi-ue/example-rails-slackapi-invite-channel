@@ -5,20 +5,33 @@ application up and running.
 
 Things you may want to cover:
 
-* Ruby version
+* Ruby version: 
 
-* System dependencies
+* Rails version: 
 
-* Configuration
+* Database creation: Postgres
 
-* Database creation
 
-* Database initialization
+リポジトリを clone
+```
+git clone
+```
 
-* How to run the test suite
+リポジトリに移動
+```
+```
 
-* Services (job queues, cache servers, search engines, etc.)
+gemをインストール
+```
+bundle install -j4
+```
 
-* Deployment instructions
+webpackerをインストール
+```
+rails webpacker:install
+```
 
-* ...
+アプリケーションを起動
+```
+rails s
+```
